@@ -1,0 +1,12 @@
+
+📘 Rice Production Prediction Summary
+Model: Linear Regression
+Target: RICE PRODUCTION (1000 tons)
+Features: RICE AREA (1000 ha), RICE YIELD (Kg per ha), Year
+R²: 0.816
+
+Predicted (1000 tons): 1195.23
+
+Interpretation:
+Higher area and yield → higher predicted production.
+R² close to 1 is better; MAE is average error in '1000 tons'.
