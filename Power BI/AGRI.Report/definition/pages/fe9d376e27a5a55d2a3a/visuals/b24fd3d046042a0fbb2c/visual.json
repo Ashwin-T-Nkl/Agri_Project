@@ -1,0 +1,201 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "b24fd3d046042a0fbb2c",
+  "position": {
+    "x": 355.83333333333337,
+    "y": 0,
+    "z": 1000,
+    "height": 435,
+    "width": 385.83333333333337,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "hundredPercentStackedBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "AgriData"
+                    }
+                  },
+                  "Property": "State Name"
+                }
+              },
+              "queryRef": "AgriData.State Name",
+              "nativeQueryRef": "State Name",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AgriData"
+                        }
+                      },
+                      "Property": "KHARIF SORGHUM PRODUCTION (1000 tons)"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(AgriData.KHARIF SORGHUM PRODUCTION (1000 tons))",
+              "nativeQueryRef": "Sum of KHARIF SORGHUM PRODUCTION (1000 tons)"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AgriData"
+                        }
+                      },
+                      "Property": "RABI SORGHUM PRODUCTION (1000 tons)"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(AgriData.RABI SORGHUM PRODUCTION (1000 tons))",
+              "nativeQueryRef": "Sum of RABI SORGHUM PRODUCTION (1000 tons)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "AgriData"
+                      }
+                    },
+                    "Property": "KHARIF SORGHUM PRODUCTION (1000 tons)"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 8,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(AgriData.RABI SORGHUM PRODUCTION (1000 tons))"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(AgriData.KHARIF SORGHUM PRODUCTION (1000 tons))"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "5b4469d0268d79906d02",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "AgriData"
+                  }
+                },
+                "Property": "KHARIF SORGHUM PRODUCTION (1000 tons)"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "a998058f6b79ef3cb516",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "AgriData"
+                  }
+                },
+                "Property": "RABI SORGHUM PRODUCTION (1000 tons)"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "c3121ec7bbd3d29c8ea7",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AgriData"
+              }
+            },
+            "Property": "State Name"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1302 @@
+table AgriData
+	lineageTag: d519d174-aee0-44db-8a97-55c7b64a67de
+
+	measure Measure
+		lineageTag: 3b7d8c2e-faa0-4224-953f-0d17517226b4
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	column 'Dist Code'
+		dataType: int64
+		formatString: 0
+		lineageTag: b5942615-17c8-4d4e-9420-5a9df825cf82
+		summarizeBy: count
+		sourceColumn: Dist Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 08e3b645-ba0d-4c85-a110-370b02b9c94b
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'State Code'
+		dataType: int64
+		formatString: 0
+		lineageTag: d515a8b2-0b49-4b85-a275-60e56f4da868
+		summarizeBy: count
+		sourceColumn: State Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'State Name'
+		dataType: string
+		lineageTag: a4bd0eae-f84e-472c-a98c-bef111200d99
+		summarizeBy: none
+		sourceColumn: State Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dist Name'
+		dataType: string
+		lineageTag: 5c684603-4cd7-4a8a-87fc-e8dcf8d7737d
+		summarizeBy: none
+		sourceColumn: Dist Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'RICE AREA (1000 ha)'
+		dataType: double
+		lineageTag: 9a9200eb-06c7-4987-b2f2-cec24189583e
+		summarizeBy: sum
+		sourceColumn: RICE AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RICE PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: ff759dd0-2f30-40b1-aad9-3c38b31280ab
+		summarizeBy: sum
+		sourceColumn: RICE PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RICE YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 7bb96e27-9b8a-4b8f-8797-8b40463d62fc
+		summarizeBy: sum
+		sourceColumn: RICE YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'WHEAT AREA (1000 ha)'
+		dataType: double
+		lineageTag: 0d2c2b7b-4c2e-4c22-bc3c-7cbc36eae0ae
+		summarizeBy: sum
+		sourceColumn: WHEAT AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'WHEAT PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 5568cd40-df67-41ae-b361-a5621da3cce8
+		summarizeBy: sum
+		sourceColumn: WHEAT PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'WHEAT YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 84b8edda-8dd1-4fca-aa18-cce8bf2699ee
+		summarizeBy: sum
+		sourceColumn: WHEAT YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'KHARIF SORGHUM AREA (1000 ha)'
+		dataType: double
+		lineageTag: 751db1de-147d-4eb4-9828-a0093e537bea
+		summarizeBy: sum
+		sourceColumn: KHARIF SORGHUM AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'KHARIF SORGHUM PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 2a22d73e-a330-477d-8474-faa591512ddc
+		summarizeBy: sum
+		sourceColumn: KHARIF SORGHUM PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'KHARIF SORGHUM YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 8a1441c4-8b9b-46f0-b65d-bcb5b52b841a
+		summarizeBy: sum
+		sourceColumn: KHARIF SORGHUM YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RABI SORGHUM AREA (1000 ha)'
+		dataType: double
+		lineageTag: 94db0c56-a33f-48bc-9a83-a7fe99c2006c
+		summarizeBy: sum
+		sourceColumn: RABI SORGHUM AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RABI SORGHUM PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: e072d860-594e-4f36-977a-4f98d55dd0c9
+		summarizeBy: sum
+		sourceColumn: RABI SORGHUM PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RABI SORGHUM YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: cf7c015a-bc4a-4277-81f9-9f361cb317a6
+		summarizeBy: sum
+		sourceColumn: RABI SORGHUM YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SORGHUM AREA (1000 ha)'
+		dataType: double
+		lineageTag: ff32c4f5-cc8d-4e4e-a0cc-aa2807819167
+		summarizeBy: sum
+		sourceColumn: SORGHUM AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SORGHUM PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 2bc7a72c-4b72-4b4f-aae8-2a9dca109af7
+		summarizeBy: sum
+		sourceColumn: SORGHUM PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SORGHUM YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 89c24129-4d0b-4408-9503-deb8b699c4d2
+		summarizeBy: sum
+		sourceColumn: SORGHUM YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PEARL MILLET AREA (1000 ha)'
+		dataType: double
+		lineageTag: eda8fed3-aac7-4c75-94ad-f61b0fcb02ac
+		summarizeBy: sum
+		sourceColumn: PEARL MILLET AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PEARL MILLET PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 3190384e-4631-4844-9b22-50eea3a78877
+		summarizeBy: sum
+		sourceColumn: PEARL MILLET PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PEARL MILLET YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: b18b4594-fbb3-4c8a-805a-74cfafef35e8
+		summarizeBy: sum
+		sourceColumn: PEARL MILLET YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MAIZE AREA (1000 ha)'
+		dataType: double
+		lineageTag: 57013989-bd5f-45d8-a904-a3829a88a025
+		summarizeBy: sum
+		sourceColumn: MAIZE AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MAIZE PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 1163b98f-2d49-4e22-8b3f-0bf194b23e3f
+		summarizeBy: sum
+		sourceColumn: MAIZE PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MAIZE YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: bdbdf847-bd67-4cb8-91a4-0fcf11d4c223
+		summarizeBy: sum
+		sourceColumn: MAIZE YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FINGER MILLET AREA (1000 ha)'
+		dataType: double
+		lineageTag: 8e9ff1c2-fd20-4cc4-9860-095768f68da8
+		summarizeBy: sum
+		sourceColumn: FINGER MILLET AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FINGER MILLET PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 73f54558-7580-4405-9a62-4f54bf366554
+		summarizeBy: sum
+		sourceColumn: FINGER MILLET PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FINGER MILLET YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 95a8774d-c7d5-4018-a07e-3a3db82210b0
+		summarizeBy: sum
+		sourceColumn: FINGER MILLET YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'BARLEY AREA (1000 ha)'
+		dataType: double
+		lineageTag: 45832790-48cb-43ed-bf4f-632d2b35b05a
+		summarizeBy: sum
+		sourceColumn: BARLEY AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'BARLEY PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: b53e518b-943b-44f5-914f-1bbb2733b021
+		summarizeBy: sum
+		sourceColumn: BARLEY PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'BARLEY YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: eaa67c34-8952-48dd-b573-f5abd4bb4465
+		summarizeBy: sum
+		sourceColumn: BARLEY YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'CHICKPEA AREA (1000 ha)'
+		dataType: double
+		lineageTag: f406f903-7083-49b3-8653-26b2ce905d95
+		summarizeBy: sum
+		sourceColumn: CHICKPEA AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'CHICKPEA PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 61d4b268-89d0-4e19-a26f-ae03914f1352
+		summarizeBy: sum
+		sourceColumn: CHICKPEA PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'CHICKPEA YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 84cada1e-e626-4b93-9d7a-3897a554e48d
+		summarizeBy: sum
+		sourceColumn: CHICKPEA YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PIGEONPEA AREA (1000 ha)'
+		dataType: double
+		lineageTag: 1354d4f7-b048-4ed4-9550-214dd44d468b
+		summarizeBy: sum
+		sourceColumn: PIGEONPEA AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PIGEONPEA PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: e2168923-0bee-4a32-a088-264f1944f3ca
+		summarizeBy: sum
+		sourceColumn: PIGEONPEA PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PIGEONPEA YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: a8117762-37aa-4e12-8dd6-abb97ea0047c
+		summarizeBy: sum
+		sourceColumn: PIGEONPEA YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MINOR PULSES AREA (1000 ha)'
+		dataType: double
+		lineageTag: 0f6b5627-087b-4f0c-b957-e2bdb45efb25
+		summarizeBy: sum
+		sourceColumn: MINOR PULSES AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MINOR PULSES PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: b343ad48-e926-41e2-823e-ad800e5a7cb1
+		summarizeBy: sum
+		sourceColumn: MINOR PULSES PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MINOR PULSES YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 9b10fd79-0328-4dd0-abf0-ea26c5dd9590
+		summarizeBy: sum
+		sourceColumn: MINOR PULSES YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'GROUNDNUT AREA (1000 ha)'
+		dataType: double
+		lineageTag: 36fa7927-d631-43c1-8694-499e42447736
+		summarizeBy: sum
+		sourceColumn: GROUNDNUT AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'GROUNDNUT PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 62a7a113-01fb-470d-af1c-236aa78e68e8
+		summarizeBy: sum
+		sourceColumn: GROUNDNUT PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'GROUNDNUT YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: adca9422-f05b-491b-8404-38af3c58e123
+		summarizeBy: sum
+		sourceColumn: GROUNDNUT YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SESAMUM AREA (1000 ha)'
+		dataType: double
+		lineageTag: b0b4134f-4061-402c-8920-1c319842a170
+		summarizeBy: sum
+		sourceColumn: SESAMUM AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SESAMUM PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 1dd0e8bb-06ab-4fc3-b010-164ffa85e567
+		summarizeBy: sum
+		sourceColumn: SESAMUM PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SESAMUM YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 3241abb0-ac3b-4674-afc9-bf65234361d0
+		summarizeBy: sum
+		sourceColumn: SESAMUM YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RAPESEED AND MUSTARD AREA (1000 ha)'
+		dataType: double
+		lineageTag: 3a9045cf-c90f-437b-8980-34b15d3ea290
+		summarizeBy: sum
+		sourceColumn: RAPESEED AND MUSTARD AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RAPESEED AND MUSTARD PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: f7932ed8-b36f-4d7e-9e9b-4d7f79114f72
+		summarizeBy: sum
+		sourceColumn: RAPESEED AND MUSTARD PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RAPESEED AND MUSTARD YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: e391c6d9-db56-4fc9-be48-5cbec9de9ab6
+		summarizeBy: sum
+		sourceColumn: RAPESEED AND MUSTARD YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SAFFLOWER AREA (1000 ha)'
+		dataType: double
+		lineageTag: f89f6ea8-d135-43d6-afba-dc6d8b8b7467
+		summarizeBy: sum
+		sourceColumn: SAFFLOWER AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SAFFLOWER PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 254a9303-9b36-4e15-b4be-861e8cde4aba
+		summarizeBy: sum
+		sourceColumn: SAFFLOWER PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SAFFLOWER YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 3616800b-ae3a-4ef8-87c8-1303313495cb
+		summarizeBy: sum
+		sourceColumn: SAFFLOWER YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'CASTOR AREA (1000 ha)'
+		dataType: double
+		lineageTag: ea820c50-952e-4191-9c34-e13f55cd653c
+		summarizeBy: sum
+		sourceColumn: CASTOR AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'CASTOR PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: a6acc1c4-89d4-4250-a7f2-12ca6e279411
+		summarizeBy: sum
+		sourceColumn: CASTOR PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'CASTOR YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: ca7f6b86-1a23-49af-a91f-cc1060a30548
+		summarizeBy: sum
+		sourceColumn: CASTOR YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'LINSEED AREA (1000 ha)'
+		dataType: double
+		lineageTag: 496c36e4-3e26-4506-8cba-3e4cd7fba1d6
+		summarizeBy: sum
+		sourceColumn: LINSEED AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'LINSEED PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 77072445-94a2-4da2-83eb-98a5a119f1de
+		summarizeBy: sum
+		sourceColumn: LINSEED PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'LINSEED YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 7ff001db-986a-4924-85b1-82bd89e6585b
+		summarizeBy: sum
+		sourceColumn: LINSEED YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUNFLOWER AREA (1000 ha)'
+		dataType: double
+		lineageTag: 4786f296-a0d4-4b9a-b3aa-8e6434a18e56
+		summarizeBy: sum
+		sourceColumn: SUNFLOWER AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUNFLOWER PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: c9a4b976-82ca-47e0-898c-22db5bb743a6
+		summarizeBy: sum
+		sourceColumn: SUNFLOWER PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUNFLOWER YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 13b1c893-c2df-4cc5-a50b-c00a9f99face
+		summarizeBy: sum
+		sourceColumn: SUNFLOWER YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SOYABEAN AREA (1000 ha)'
+		dataType: double
+		lineageTag: 8264b302-6033-41d6-85c4-72c924c71b92
+		summarizeBy: sum
+		sourceColumn: SOYABEAN AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SOYABEAN PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: f1979207-bcbc-4235-8ce5-ef2726a93928
+		summarizeBy: sum
+		sourceColumn: SOYABEAN PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SOYABEAN YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 4d2606d7-94b6-4b72-b94b-fc252ce8ad8e
+		summarizeBy: sum
+		sourceColumn: SOYABEAN YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'OILSEEDS AREA (1000 ha)'
+		dataType: double
+		lineageTag: 0fe7cee4-fb58-4450-a899-8f24e3bb751d
+		summarizeBy: sum
+		sourceColumn: OILSEEDS AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'OILSEEDS PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: fab9757b-2c1e-46f0-b5b6-a07019085769
+		summarizeBy: sum
+		sourceColumn: OILSEEDS PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'OILSEEDS YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 72c15b31-8b4b-4e47-a53b-cf46e4b07006
+		summarizeBy: sum
+		sourceColumn: OILSEEDS YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUGARCANE AREA (1000 ha)'
+		dataType: double
+		lineageTag: 71dedb39-3c47-4c9e-b0fd-aa878aa5b201
+		summarizeBy: sum
+		sourceColumn: SUGARCANE AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUGARCANE PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: a87c9729-101b-407c-b2e4-3098fc32d7d8
+		summarizeBy: sum
+		sourceColumn: SUGARCANE PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUGARCANE YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 6137eb12-76ff-4845-8ca6-f02bf7302b44
+		summarizeBy: sum
+		sourceColumn: SUGARCANE YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'COTTON AREA (1000 ha)'
+		dataType: double
+		lineageTag: ce65aec3-c886-4cbe-980a-bc910b33cf88
+		summarizeBy: sum
+		sourceColumn: COTTON AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'COTTON PRODUCTION (1000 tons)'
+		dataType: double
+		lineageTag: 670a5c97-f289-47ac-8754-e499afeb05ab
+		summarizeBy: sum
+		sourceColumn: COTTON PRODUCTION (1000 tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'COTTON YIELD (Kg per ha)'
+		dataType: double
+		lineageTag: 080684ba-a626-4ae2-b900-a1878a5a4533
+		summarizeBy: sum
+		sourceColumn: COTTON YIELD (Kg per ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FRUITS AREA (1000 ha)'
+		dataType: double
+		lineageTag: cbbdcad6-7224-4a75-ae81-49776d8c92a6
+		summarizeBy: sum
+		sourceColumn: FRUITS AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'VEGETABLES AREA (1000 ha)'
+		dataType: double
+		lineageTag: cb6c6b4a-433b-4e72-b49a-1f035d842ebd
+		summarizeBy: sum
+		sourceColumn: VEGETABLES AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FRUITS AND VEGETABLES AREA (1000 ha)'
+		dataType: double
+		lineageTag: b186b187-54e3-4514-b595-e4dc377dc9e1
+		summarizeBy: sum
+		sourceColumn: FRUITS AND VEGETABLES AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'POTATOES AREA (1000 ha)'
+		dataType: double
+		lineageTag: c4ca51da-c858-4180-bbb9-12d57a88f47f
+		summarizeBy: sum
+		sourceColumn: POTATOES AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'ONION AREA (1000 ha)'
+		dataType: double
+		lineageTag: 43f08b3d-0180-4375-b922-8e52e4bfa7f5
+		summarizeBy: sum
+		sourceColumn: ONION AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FODDER AREA (1000 ha)'
+		dataType: double
+		lineageTag: 3243e751-b47d-4580-91d7-3b9e113714e3
+		summarizeBy: sum
+		sourceColumn: FODDER AREA (1000 ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RICE AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: fb6e682a-931d-489d-a8aa-102c4d986e0a
+		summarizeBy: sum
+		sourceColumn: RICE AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'RICE PRODUCTION (tons)'
+		dataType: double
+		lineageTag: a4e3788c-858a-4aaa-9da6-e9c791abc6c7
+		summarizeBy: sum
+		sourceColumn: RICE PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'WHEAT AREA (ha)'
+		dataType: double
+		lineageTag: 8e44cc7d-59d2-4cb2-a785-b7e7093111cb
+		summarizeBy: sum
+		sourceColumn: WHEAT AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'WHEAT PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: df1d6a3e-b580-4f43-a2f6-fe1e54ebae77
+		summarizeBy: sum
+		sourceColumn: WHEAT PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'KHARIF SORGHUM AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: e3265a4a-84cd-4bb7-bb99-dd09c71deb63
+		summarizeBy: sum
+		sourceColumn: KHARIF SORGHUM AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'KHARIF SORGHUM PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6df5b6fa-0bc3-498e-8af9-ca19baa1ec3a
+		summarizeBy: sum
+		sourceColumn: KHARIF SORGHUM PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'RABI SORGHUM AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: bddf6778-272e-4b8f-a940-cd3ec2c3a31c
+		summarizeBy: sum
+		sourceColumn: RABI SORGHUM AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'RABI SORGHUM PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 39d659a8-02e3-4392-b911-eef43eec68cf
+		summarizeBy: sum
+		sourceColumn: RABI SORGHUM PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SORGHUM AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: b676a45f-ac16-4063-a5a0-493635a362a9
+		summarizeBy: sum
+		sourceColumn: SORGHUM AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SORGHUM PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9a415b77-5e4b-4a3a-a1a6-6328686f4f4a
+		summarizeBy: sum
+		sourceColumn: SORGHUM PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PEARL MILLET AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: f89e74a9-dae0-4b59-8cc8-7554e8f45c59
+		summarizeBy: sum
+		sourceColumn: PEARL MILLET AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PEARL MILLET PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 62af6a4d-a07d-4b87-b1f6-e27ef6184808
+		summarizeBy: sum
+		sourceColumn: PEARL MILLET PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MAIZE AREA (ha)'
+		dataType: double
+		lineageTag: a8671f04-0b2c-4d98-a07d-ba0976d3bed6
+		summarizeBy: sum
+		sourceColumn: MAIZE AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MAIZE PRODUCTION (tons)'
+		dataType: double
+		lineageTag: 5a2b2b0d-8ddb-4424-a549-006466e7135f
+		summarizeBy: sum
+		sourceColumn: MAIZE PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FINGER MILLET AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 62c175e1-4385-4ca8-b5f7-d63c61459e7e
+		summarizeBy: sum
+		sourceColumn: FINGER MILLET AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FINGER MILLET PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: fac5afcc-8400-45fc-a2a1-547873418533
+		summarizeBy: sum
+		sourceColumn: FINGER MILLET PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'BARLEY AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3f0e0563-1654-4cc7-8560-24f72342ca55
+		summarizeBy: sum
+		sourceColumn: BARLEY AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'BARLEY PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 16bee4c7-8017-4407-ba65-cc7258dfe4ce
+		summarizeBy: sum
+		sourceColumn: BARLEY PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CHICKPEA AREA (ha)'
+		dataType: double
+		lineageTag: 691fd878-2baf-4612-b642-c85b4bbe54bc
+		summarizeBy: sum
+		sourceColumn: CHICKPEA AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'CHICKPEA PRODUCTION (tons)'
+		dataType: double
+		lineageTag: deb6b1c9-0711-4051-a647-667092a7b8b7
+		summarizeBy: sum
+		sourceColumn: CHICKPEA PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PIGEONPEA AREA (ha)'
+		dataType: double
+		lineageTag: d472e844-576a-49b8-a289-d176dcabed1c
+		summarizeBy: sum
+		sourceColumn: PIGEONPEA AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'PIGEONPEA PRODUCTION (tons)'
+		dataType: double
+		lineageTag: 82278e53-6dec-47de-bb50-878cc20db86b
+		summarizeBy: sum
+		sourceColumn: PIGEONPEA PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MINOR PULSES AREA (ha)'
+		dataType: double
+		lineageTag: a99e3916-66b9-4d58-af93-86f00f384de6
+		summarizeBy: sum
+		sourceColumn: MINOR PULSES AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'MINOR PULSES PRODUCTION (tons)'
+		dataType: double
+		lineageTag: 2d2f918e-0bb7-4b86-9cb2-2c44ede2e11f
+		summarizeBy: sum
+		sourceColumn: MINOR PULSES PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'GROUNDNUT AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: d632c86c-336b-4a81-b892-2060cc1dc525
+		summarizeBy: sum
+		sourceColumn: GROUNDNUT AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'GROUNDNUT PRODUCTION (tons)'
+		dataType: double
+		lineageTag: 53750b37-94ff-4c2b-ba8d-d07db8e713e7
+		summarizeBy: sum
+		sourceColumn: GROUNDNUT PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SESAMUM AREA (ha)'
+		dataType: double
+		lineageTag: e801cc7f-85fd-4033-b49b-3fbd0f682379
+		summarizeBy: sum
+		sourceColumn: SESAMUM AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SESAMUM PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0e26d71c-96f1-46a3-adeb-d63f82688fdd
+		summarizeBy: sum
+		sourceColumn: SESAMUM PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'RAPESEED AND MUSTARD AREA (ha)'
+		dataType: double
+		lineageTag: 546f4a9a-c803-45f7-ba86-87a7f38d7854
+		summarizeBy: sum
+		sourceColumn: RAPESEED AND MUSTARD AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RAPESEED AND MUSTARD PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: a3314518-2d6d-49b5-b917-7f0f72fca870
+		summarizeBy: sum
+		sourceColumn: RAPESEED AND MUSTARD PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SAFFLOWER AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: b8307d9b-2401-41a0-b978-b2ac3de0bac2
+		summarizeBy: sum
+		sourceColumn: SAFFLOWER AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SAFFLOWER PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: af5f4eec-4be0-43f8-ad79-b43b8945c67b
+		summarizeBy: sum
+		sourceColumn: SAFFLOWER PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CASTOR AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5aa8ee8f-8d2f-4548-922e-a21059b9b000
+		summarizeBy: sum
+		sourceColumn: CASTOR AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CASTOR PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 484a68cd-e392-4cc2-bef0-1eb462e4097e
+		summarizeBy: sum
+		sourceColumn: CASTOR PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'LINSEED AREA (ha)'
+		dataType: double
+		lineageTag: 8019fac9-322c-4778-9978-15f00175afc0
+		summarizeBy: sum
+		sourceColumn: LINSEED AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'LINSEED PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: da45e38c-edd4-4d83-b4c9-9426cc2a4a5c
+		summarizeBy: sum
+		sourceColumn: LINSEED PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SUNFLOWER AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 02a6915e-92f2-415a-94aa-b7b6bb000ba9
+		summarizeBy: sum
+		sourceColumn: SUNFLOWER AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SUNFLOWER PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 14a9644b-0507-43aa-9b10-3f8e8d497e4f
+		summarizeBy: sum
+		sourceColumn: SUNFLOWER PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'SOYABEAN AREA (ha)'
+		dataType: double
+		lineageTag: 852d1d16-88c6-4e0c-bc05-5a443768478e
+		summarizeBy: sum
+		sourceColumn: SOYABEAN AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SOYABEAN PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5272fe15-3c3b-40bc-bf8e-b617c1068f32
+		summarizeBy: sum
+		sourceColumn: SOYABEAN PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'OILSEEDS AREA (ha)'
+		dataType: double
+		lineageTag: e6cdacb1-9544-45a7-a98e-a90ee9fd1f7e
+		summarizeBy: sum
+		sourceColumn: OILSEEDS AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'OILSEEDS PRODUCTION (tons)'
+		dataType: double
+		lineageTag: ebe9e419-bd08-46e8-bfc0-d48cedbacdb1
+		summarizeBy: sum
+		sourceColumn: OILSEEDS PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUGARCANE AREA (ha)'
+		dataType: double
+		lineageTag: 0e42ef90-0c46-4e0a-8da8-bb71a517c42a
+		summarizeBy: sum
+		sourceColumn: SUGARCANE AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'SUGARCANE PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 72ca7876-71c3-4fbb-95c6-8865889ac58a
+		summarizeBy: sum
+		sourceColumn: SUGARCANE PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COTTON AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 04469b3f-d094-4347-a933-90bcb69e9ae2
+		summarizeBy: sum
+		sourceColumn: COTTON AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COTTON PRODUCTION (tons)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5cad3a2b-9cfe-4492-b938-deac243aa0a7
+		summarizeBy: sum
+		sourceColumn: COTTON PRODUCTION (tons)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FRUITS AREA (ha)'
+		dataType: double
+		lineageTag: ef70b5d5-e1a0-47af-ad23-534ecfbed550
+		summarizeBy: sum
+		sourceColumn: FRUITS AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'VEGETABLES AREA (ha)'
+		dataType: double
+		lineageTag: fbb696e4-2630-456b-b4cd-efd4a1e80a03
+		summarizeBy: sum
+		sourceColumn: VEGETABLES AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'FRUITS AND VEGETABLES AREA (ha)'
+		dataType: double
+		lineageTag: f6dba7e2-87fe-4bfd-a53e-0d0ec8db0856
+		summarizeBy: sum
+		sourceColumn: FRUITS AND VEGETABLES AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'POTATOES AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: ba434717-9e17-446c-82d2-50b084ce6cec
+		summarizeBy: sum
+		sourceColumn: POTATOES AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ONION AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: d2ca548c-6036-41f1-96ae-0aad0c5c35a1
+		summarizeBy: sum
+		sourceColumn: ONION AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FODDER AREA (ha)'
+		dataType: int64
+		formatString: 0
+		lineageTag: a276d718-f591-4696-bf67-dc5e3012819a
+		summarizeBy: sum
+		sourceColumn: FODDER AREA (ha)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AgriData = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Ashwin\Downloads\AgriProject\AgriData.csv"),[Delimiter=",", Columns=132, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Dist Code", Int64.Type}, {"Year", Int64.Type}, {"State Code", Int64.Type}, {"State Name", type text}, {"Dist Name", type text}, {"RICE AREA (1000 ha)", type number}, {"RICE PRODUCTION (1000 tons)", type number}, {"RICE YIELD (Kg per ha)", type number}, {"WHEAT AREA (1000 ha)", type number}, {"WHEAT PRODUCTION (1000 tons)", type number}, {"WHEAT YIELD (Kg per ha)", type number}, {"KHARIF SORGHUM AREA (1000 ha)", type number}, {"KHARIF SORGHUM PRODUCTION (1000 tons)", type number}, {"KHARIF SORGHUM YIELD (Kg per ha)", type number}, {"RABI SORGHUM AREA (1000 ha)", type number}, {"RABI SORGHUM PRODUCTION (1000 tons)", type number}, {"RABI SORGHUM YIELD (Kg per ha)", type number}, {"SORGHUM AREA (1000 ha)", type number}, {"SORGHUM PRODUCTION (1000 tons)", type number}, {"SORGHUM YIELD (Kg per ha)", type number}, {"PEARL MILLET AREA (1000 ha)", type number}, {"PEARL MILLET PRODUCTION (1000 tons)", type number}, {"PEARL MILLET YIELD (Kg per ha)", type number}, {"MAIZE AREA (1000 ha)", type number}, {"MAIZE PRODUCTION (1000 tons)", type number}, {"MAIZE YIELD (Kg per ha)", type number}, {"FINGER MILLET AREA (1000 ha)", type number}, {"FINGER MILLET PRODUCTION (1000 tons)", type number}, {"FINGER MILLET YIELD (Kg per ha)", type number}, {"BARLEY AREA (1000 ha)", type number}, {"BARLEY PRODUCTION (1000 tons)", type number}, {"BARLEY YIELD (Kg per ha)", type number}, {"CHICKPEA AREA (1000 ha)", type number}, {"CHICKPEA PRODUCTION (1000 tons)", type number}, {"CHICKPEA YIELD (Kg per ha)", type number}, {"PIGEONPEA AREA (1000 ha)", type number}, {"PIGEONPEA PRODUCTION (1000 tons)", type number}, {"PIGEONPEA YIELD (Kg per ha)", type number}, {"MINOR PULSES AREA (1000 ha)", type number}, {"MINOR PULSES PRODUCTION (1000 tons)", type number}, {"MINOR PULSES YIELD (Kg per ha)", type number}, {"GROUNDNUT AREA (1000 ha)", type number}, {"GROUNDNUT PRODUCTION (1000 tons)", type number}, {"GROUNDNUT YIELD (Kg per ha)", type number}, {"SESAMUM AREA (1000 ha)", type number}, {"SESAMUM PRODUCTION (1000 tons)", type number}, {"SESAMUM YIELD (Kg per ha)", type number}, {"RAPESEED AND MUSTARD AREA (1000 ha)", type number}, {"RAPESEED AND MUSTARD PRODUCTION (1000 tons)", type number}, {"RAPESEED AND MUSTARD YIELD (Kg per ha)", type number}, {"SAFFLOWER AREA (1000 ha)", type number}, {"SAFFLOWER PRODUCTION (1000 tons)", type number}, {"SAFFLOWER YIELD (Kg per ha)", type number}, {"CASTOR AREA (1000 ha)", type number}, {"CASTOR PRODUCTION (1000 tons)", type number}, {"CASTOR YIELD (Kg per ha)", type number}, {"LINSEED AREA (1000 ha)", type number}, {"LINSEED PRODUCTION (1000 tons)", type number}, {"LINSEED YIELD (Kg per ha)", type number}, {"SUNFLOWER AREA (1000 ha)", type number}, {"SUNFLOWER PRODUCTION (1000 tons)", type number}, {"SUNFLOWER YIELD (Kg per ha)", type number}, {"SOYABEAN AREA (1000 ha)", type number}, {"SOYABEAN PRODUCTION (1000 tons)", type number}, {"SOYABEAN YIELD (Kg per ha)", type number}, {"OILSEEDS AREA (1000 ha)", type number}, {"OILSEEDS PRODUCTION (1000 tons)", type number}, {"OILSEEDS YIELD (Kg per ha)", type number}, {"SUGARCANE AREA (1000 ha)", type number}, {"SUGARCANE PRODUCTION (1000 tons)", type number}, {"SUGARCANE YIELD (Kg per ha)", type number}, {"COTTON AREA (1000 ha)", type number}, {"COTTON PRODUCTION (1000 tons)", type number}, {"COTTON YIELD (Kg per ha)", type number}, {"FRUITS AREA (1000 ha)", type number}, {"VEGETABLES AREA (1000 ha)", type number}, {"FRUITS AND VEGETABLES AREA (1000 ha)", type number}, {"POTATOES AREA (1000 ha)", type number}, {"ONION AREA (1000 ha)", type number}, {"FODDER AREA (1000 ha)", type number}, {"RICE AREA (ha)", Int64.Type}, {"RICE PRODUCTION (tons)", type number}, {"WHEAT AREA (ha)", type number}, {"WHEAT PRODUCTION (tons)", Int64.Type}, {"KHARIF SORGHUM AREA (ha)", Int64.Type}, {"KHARIF SORGHUM PRODUCTION (tons)", Int64.Type}, {"RABI SORGHUM AREA (ha)", Int64.Type}, {"RABI SORGHUM PRODUCTION (tons)", Int64.Type}, {"SORGHUM AREA (ha)", Int64.Type}, {"SORGHUM PRODUCTION (tons)", Int64.Type}, {"PEARL MILLET AREA (ha)", Int64.Type}, {"PEARL MILLET PRODUCTION (tons)", Int64.Type}, {"MAIZE AREA (ha)", type number}, {"MAIZE PRODUCTION (tons)", type number}, {"FINGER MILLET AREA (ha)", Int64.Type}, {"FINGER MILLET PRODUCTION (tons)", Int64.Type}, {"BARLEY AREA (ha)", Int64.Type}, {"BARLEY PRODUCTION (tons)", Int64.Type}, {"CHICKPEA AREA (ha)", type number}, {"CHICKPEA PRODUCTION (tons)", type number}, {"PIGEONPEA AREA (ha)", type number}, {"PIGEONPEA PRODUCTION (tons)", type number}, {"MINOR PULSES AREA (ha)", type number}, {"MINOR PULSES PRODUCTION (tons)", type number}, {"GROUNDNUT AREA (ha)", Int64.Type}, {"GROUNDNUT PRODUCTION (tons)", type number}, {"SESAMUM AREA (ha)", type number}, {"SESAMUM PRODUCTION (tons)", Int64.Type}, {"RAPESEED AND MUSTARD AREA (ha)", type number}, {"RAPESEED AND MUSTARD PRODUCTION (tons)", Int64.Type}, {"SAFFLOWER AREA (ha)", Int64.Type}, {"SAFFLOWER PRODUCTION (tons)", Int64.Type}, {"CASTOR AREA (ha)", Int64.Type}, {"CASTOR PRODUCTION (tons)", Int64.Type}, {"LINSEED AREA (ha)", type number}, {"LINSEED PRODUCTION (tons)", Int64.Type}, {"SUNFLOWER AREA (ha)", Int64.Type}, {"SUNFLOWER PRODUCTION (tons)", Int64.Type}, {"SOYABEAN AREA (ha)", type number}, {"SOYABEAN PRODUCTION (tons)", Int64.Type}, {"OILSEEDS AREA (ha)", type number}, {"OILSEEDS PRODUCTION (tons)", type number}, {"SUGARCANE AREA (ha)", type number}, {"SUGARCANE PRODUCTION (tons)", Int64.Type}, {"COTTON AREA (ha)", Int64.Type}, {"COTTON PRODUCTION (tons)", Int64.Type}, {"FRUITS AREA (ha)", type number}, {"VEGETABLES AREA (ha)", type number}, {"FRUITS AND VEGETABLES AREA (ha)", type number}, {"POTATOES AREA (ha)", Int64.Type}, {"ONION AREA (ha)", Int64.Type}, {"FODDER AREA (ha)", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
